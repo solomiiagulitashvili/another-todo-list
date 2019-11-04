@@ -1,0 +1,100 @@
+body {
+    background-color: #E4F1DB;
+    color: #686E75;
+    padding: 0 80px;
+    
+}
+.navbar-light .navbar-brand {
+    color: #686E75 !important;
+}
+
+.bg-light {
+    background-color: #E4F1DB !important;
+}
+
+h1 {
+    font-size: 26px;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.log-in {
+    border: 1px solid #686E75;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+a {
+    color: #686E75;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.modal-content {
+    background-color: #E4F1DB;
+    color: #686E75 !important;
+}
+
+.btn-danger,
+.btn-primary {
+    background-color: #3D6B8B !important;
+    border: 1px solid #3D6B8B !important;
+}
+.btn-danger:hover {
+    background-color: #195062 !important;
+}
+.form-group {
+    width: 100%;
+    text-align: left;
+}
+.complete {
+    background-color: #308D5F !important;
+}
+.list {
+    list-style: none;
+    background-color: #E4F1DB;
+    padding: 0;
+}
+.item {
+    background-color: #E4F1DB !important;
+}
+.list-header {
+    margin: 20px 0;
+}
+
+.priority {
+    text-transform: capitalize;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.card-title {
+    font-size: 18px;
+}
+.card-text {
+    font-size: 18px;
+}
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+.btn {
+margin-right: 10px;   
+}
+
+.username {
+    font-size: 24px;
+    margin-right: 10px;;
+}
+
+.nav-item {
+    font-size: 24px;
+}
+.navbar {
+    padding-left: 0 !important;
+}
+.delete {
+    background-color: #F25E5E !important;
+}
