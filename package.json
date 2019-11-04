@@ -43,7 +43,7 @@
     "dev": "webpack-dev-server --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "serve": "node -r dotenv/config serve.js",
-    "start": "npm run build && npm run serve"
+    "start": "npm run serve"
   },
   "author": "",
   "license": "ISC"
