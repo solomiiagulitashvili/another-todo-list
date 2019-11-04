@@ -6,7 +6,7 @@ const app = express();
 app.use(express.static('dist'));
 
 // Add middleware for http proxying
-const apiProxy = proxy('/api', { target: 'http://localhost:8080' });
+const apiProxy = proxy('/api', { target: process.env.PROXY });
 app.use('/api', apiProxy);
 
 // Render your site
@@ -15,6 +15,6 @@ const renderIndex = (req, res) => {
 };
 app.get('/*', renderIndex);
 
-app.listen(3000, () => {
-  console.log('Listening on: http://localhost:3000');
+app.listen(process.env.PORT || 3000, () => {
+  console.log(`Listening on port: ${process.env.PORT}`);
 });
