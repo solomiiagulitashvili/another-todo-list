@@ -1,6 +1,10 @@
 const handleResponse = (body) => {
   try {
-    return JSON.parse(body);
+    const parsed = JSON.parse(body);
+    if (parsed.error) {
+      throw parsed.error.message;
+    }
+    return parsed;
   } catch {
     throw (body);
   }

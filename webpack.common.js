@@ -37,4 +37,5 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx'],
   },
+  stats: { warnings: false },
 };
